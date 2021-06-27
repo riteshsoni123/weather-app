@@ -2,6 +2,9 @@ var button = document.querySelector('.btn');
 var inputvalue = document.querySelector('.inputvalue');
 document.body.style.backgroundImage = "url('shower_rain.jpg')";
 
+
+document.body.style.backgroundImage = "url('backgrounds/fewer_clouds.jpg')";
+
 document.getElementById('stop').addEventListener('click', function () {
     document.getElementById('namevalue').style.animation = "";
     document.getElementById('temterature').style.animation = "";
@@ -40,76 +43,76 @@ btn.addEventListener('click', function () {
 
 
             if (icon.localeCompare('01d') == 0) {
-                document.body.style.backgroundImage = "url('clear_sky.png')";
-                document.getElementById('image').src = '01d@2x.png'
+                document.body.style.backgroundImage = "url('backgrounds/clear_sky.png')";
+                document.getElementById('image').src = 'icons/01d@2x.png'
             }
             else if (icon.localeCompare('01n') == 0) {
-                document.body.style.backgroundImage = "url('clear_sky.png')";
-                document.getElementById('image').src = '01n@2x.png'
+                document.body.style.backgroundImage = "url('backgrounds/clear_sky.png')";
+                document.getElementById('image').src = 'icons/01n@2x.png'
             }
             else if (icon.localeCompare('02d') == 0) {
-                document.body.style.backgroundImage = "url('fewer_clouds.jpg')";
-                document.getElementById('image').src = '02d@2x.png'
+                document.body.style.backgroundImage = "url('backgrounds/fewer_clouds.jpg')";
+                document.getElementById('image').src = 'icons/02d@2x.png'
             }
             else if (icon.localeCompare('02n') == 0) {
-                document.body.style.backgroundImage = "url('fewer_clouds.jpg')";
-                document.getElementById('image').src = '02n@2x.png'
+                document.body.style.backgroundImage = "url('backgrounds/fewer_clouds.jpg')";
+                document.getElementById('image').src = 'icons/02n@2x.png'
             }
             else if (icon.localeCompare('03d') == 0) {
-                document.body.style.backgroundImage = "url('scattered.jpg')";
-                document.getElementById('image').src = '03d@2x.png'
+                document.body.style.backgroundImage = "url('backgrounds/scattered.jpg')";
+                document.getElementById('image').src = 'icons/03d@2x.png'
             }
             else if (icon.localeCompare('03n') == 0) {
-                document.body.style.backgroundImage = "url('scattered.jpg')";
-                document.getElementById('image').src = '03n@2x.png'
+                document.body.style.backgroundImage = "url('backgrounds/scattered.jpg')";
+                document.getElementById('image').src = 'icons/03n@2x.png'
             }
             else if (icon.localeCompare('04d') == 0) {
-                document.body.style.backgroundImage = "url('broken_clouds.jpg')";
-                document.getElementById('image').src = '04d@2x.png'
+                document.body.style.backgroundImage = "url('backgrounds/broken_clouds.jpg')";
+                document.getElementById('image').src = 'icons/04d@2x.png'
             }
             else if (icon.localeCompare('04n') == 0) {
-                document.body.style.backgroundImage = "url('broken_clouds.jpg')";
-                document.getElementById('image').src = '04n@2x.png'
+                document.body.style.backgroundImage = "url('backgrounds/broken_clouds.jpg')";
+                document.getElementById('image').src = 'icons/04n@2x.png'
             }
             else if (icon.localeCompare('09d') == 0) {
-                document.body.style.backgroundImage = "url('shower_rain.jpg')";
-                document.getElementById('image').src = '09d@2x.png'
+                document.body.style.backgroundImage = "url('backgrounds/shower_rain.jpg')";
+                document.getElementById('image').src = 'icons/09d@2x.png'
             }
             else if (icon.localeCompare('09n') == 0) {
-                document.body.style.backgroundImage = "url('shower_rain.jpg')";
-                document.getElementById('image').src = '09n@2x.png'
+                document.body.style.backgroundImage = "url('backgrounds/shower_rain.jpg')";
+                document.getElementById('image').src = 'icons/09n@2x.png'
             }
             else if (icon.localeCompare('10d') == 0) {
-                document.body.style.backgroundImage = "url('rain.png')";
-                document.getElementById('image').src = '10d@2x.png'
+                document.body.style.backgroundImage = "url('backgrounds/rain.png')";
+                document.getElementById('image').src = 'icons/10d@2x.png'
             }
             else if (icon.localeCompare('10n') == 0) {
-                document.body.style.backgroundImage = "url('rain.png')";
-                document.getElementById('image').src = '10n@2x.png'
+                document.body.style.backgroundImage = "url('backgrounds/rain.png')";
+                document.getElementById('image').src = 'icons/10n@2x.png'
             }
             else if (icon.localeCompare('11d') == 0) {
-                document.body.style.backgroundImage = "url('thunderstorm.jpg')";
-                document.getElementById('image').src = '11d@2x.png'
+                document.body.style.backgroundImage = "url('backgrounds/thunderstorm.jpg')";
+                document.getElementById('image').src = 'icons/11d@2x.png'
             }
             else if (icon.localeCompare('11n') == 0) {
-                document.body.style.backgroundImage = "url('thunderstorm.jpg')";
-                document.getElementById('image').src = '11n@2x.png'
+                document.body.style.backgroundImage = "url('backgrounds/thunderstorm.jpg')";
+                document.getElementById('image').src = 'icons/11n@2x.png'
             }
             else if (icon.localeCompare('13d') == 0) {
-                document.body.style.backgroundImage = "url('snow.jpg')";
-                document.getElementById('image').src = '13d@2x.png'
+                document.body.style.backgroundImage = "url('backgrounds/snow.jpg')";
+                document.getElementById('image').src = 'icons/13d@2x.png'
             }
             else if (icon.localeCompare('13n') == 0) {
-                document.body.style.backgroundImage = "url('snow.jpg')";
-                document.getElementById('image').src = '13n@2x.png'
+                document.body.style.backgroundImage = "url('backgrounds/snow.jpg')";
+                document.getElementById('image').src = 'icons/13n@2x.png'
             }
             else if (icon.localeCompare('50d') == 0) {
-                document.body.style.backgroundImage = "url('mist.jpg')";
-                document.getElementById('image').src = '50d@2x.png'
+                document.body.style.backgroundImage = "url('backgrounds/mist.jpg')";
+                document.getElementById('image').src = 'icons/50d@2x.png'
             }
             else if (icon.localeCompare('50n') == 0) {
-                document.body.style.backgroundImage = "url('mist.jpg')";
-                document.getElementById('image').src = '50n@2x.png'
+                document.body.style.backgroundImage = "url('backgrounds/mist.jpg')";
+                document.getElementById('image').src = 'icons/50n@2x.png'
             }
 
             document.getElementById('namevalue').style.visibility="visible";
@@ -125,7 +128,7 @@ btn.addEventListener('click', function () {
             document.getElementById('image').style.animation="buzz 2s ease-in";
         })
 
-        // .catch(err => alert("wrong city name!"))
+        .catch(err => alert("wrong city name!"))
 })
 
 
