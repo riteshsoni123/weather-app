@@ -26,22 +26,16 @@ btn.addEventListener('click', function () {
             var desc = data['weather'][0]['description'];
             var icon = data['weather'][0]['icon'];
 
-            console.log(name);
-            console.log(temp);
-            console.log(desc);
-            console.log(icon);
+            // console.log(name);
+            // console.log(temp);
+            // console.log(desc);
+            // console.log(icon);
             // console.log(data);
             namevalue.innerHTML = "Place: " + name.toUpperCase();
-            temterature.innerHTML = "Temperture: " + (temp - 273).toPrecision(3);
+            temterature.innerHTML = "Temperture: " + temp +" K";
             description.innerHTML = "Description: " + desc.toUpperCase();
 
-            
-
-
-
-            
-
-
+ 
             if (icon.localeCompare('01d') == 0) {
                 document.body.style.backgroundImage = "url('backgrounds/clear_sky.png')";
                 document.getElementById('image').src = 'icons/01d@2x.png'
@@ -116,16 +110,16 @@ btn.addEventListener('click', function () {
             }
 
             document.getElementById('namevalue').style.visibility="visible";
-            document.getElementById('namevalue').style.animation="buzz 2s ease-in";
+            document.getElementById('namevalue').style.animation="left 2s ease-in";
 
             document.getElementById('temterature').style.visibility="visible";
-            document.getElementById('temterature').style.animation="buzz 2s ease-in";
+            document.getElementById('temterature').style.animation="right 2s ease-in";
 
             document.getElementById('description').style.visibility="visible";
-            document.getElementById('description').style.animation="buzz 2s ease-in";
+            document.getElementById('description').style.animation="left 2s ease-in";
 
             document.getElementById('image').style.visibility="visible";
-            document.getElementById('image').style.animation="buzz 2s ease-in";
+            document.getElementById('image').style.animation="right 2s ease-in";
         })
 
         .catch(err => alert("wrong city name!"))
