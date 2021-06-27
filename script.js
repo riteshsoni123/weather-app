@@ -28,9 +28,6 @@ btn.addEventListener('click', function () {
             console.log(desc);
             console.log(icon);
             // console.log(data);
-            // str.toLocaleLowerCase();
-            // str1.localeCompare(str2);
-
             namevalue.innerHTML = "Place: " + name.toUpperCase();
             temterature.innerHTML = "Temperture: " + (temp - 273).toPrecision(3);
             description.innerHTML = "Description: " + desc.toUpperCase();
@@ -59,11 +56,11 @@ btn.addEventListener('click', function () {
                 document.getElementById('image').src = '02n@2x.png'
             }
             else if (icon.localeCompare('03d') == 0) {
-                document.body.style.backgroundImage = "url('scattered_clouds.png')";
+                document.body.style.backgroundImage = "url('scattered.jpg')";
                 document.getElementById('image').src = '03d@2x.png'
             }
             else if (icon.localeCompare('03n') == 0) {
-                document.body.style.backgroundImage = "url('scattered_clouds.png')";
+                document.body.style.backgroundImage = "url('scattered.jpg')";
                 document.getElementById('image').src = '03n@2x.png'
             }
             else if (icon.localeCompare('04d') == 0) {
