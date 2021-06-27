@@ -17,6 +17,7 @@ btn.addEventListener('click', function () {
     fetch('https://api.openweathermap.org/data/2.5/weather?q=' + inputvalue.value + '&appid=2d67cb3e75b312d45298cebcdfa4d90b')
         .then(response => response.json())
         .then(data => {
+            // console.log(data)
             var name = data['name'];
             var temp = data['main']['temp'];
             var desc = data['weather'][0]['description'];
@@ -118,16 +119,16 @@ btn.addEventListener('click', function () {
             }
 
             document.getElementById('namevalue').style.visibility="visible";
-            document.getElementById('namevalue').style.animation="buzz 0.7s ease-in";
+            document.getElementById('namevalue').style.animation="buzz 2s ease-in";
 
             document.getElementById('temterature').style.visibility="visible";
-            document.getElementById('temterature').style.animation="buzz 0.7s ease-in";
+            document.getElementById('temterature').style.animation="buzz 2s ease-in";
 
             document.getElementById('description').style.visibility="visible";
-            document.getElementById('description').style.animation="buzz 0.7s ease-in";
+            document.getElementById('description').style.animation="buzz 2s ease-in";
 
             document.getElementById('image').style.visibility="visible";
-            document.getElementById('image').style.animation="buzz 0.7s ";
+            document.getElementById('image').style.animation="buzz 2s ease-in";
         })
 
         // .catch(err => alert("wrong city name!"))
