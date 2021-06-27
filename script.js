@@ -31,12 +31,9 @@ btn.addEventListener('click', function () {
             // str.toLocaleLowerCase();
             // str1.localeCompare(str2);
 
-            // name="Place:-"+name.toUpperCase();
-            namevalue.innerHTML = "Place:-" + name.toUpperCase();
-            // temp="Temperature:-"+(temp-273).toPrecision(3);
-            temterature.innerHTML = "Temperture:-" + (temp - 273).toPrecision(3);
-            // desc="Description:-" + desc.toUpperCase();
-            description.innerHTML = "Description:-" + desc.toUpperCase();
+            namevalue.innerHTML = "Place: " + name.toUpperCase();
+            temterature.innerHTML = "Temperture: " + (temp - 273).toPrecision(3);
+            description.innerHTML = "Description: " + desc.toUpperCase();
 
             
 
