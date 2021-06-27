@@ -141,7 +141,7 @@ input[type="submit"] {
     }
     input[type="submit"] {
         font-size: 15px;
-        width: 50px;
+        width: 60px;
         height: 25px;
         /* margin-top: 18px; */
     }
@@ -159,8 +159,8 @@ input[type="submit"] {
         margin-top: 135px;
     }
     .info{
-        margin-top: 100px;
-        margin-bottom: 150px;
+        margin-top: 120px;
+        margin-bottom: 160px;
         /* border: 2px solid red; */
     }
     #slide{
@@ -175,7 +175,7 @@ input[type="submit"] {
     }
     input[type="submit"] {
         font-size: 15px;
-        width: 50px;
+        width: 60px;
         height: 25px;
         /* margin-top: 18px; */
     }
